@@ -1,0 +1,57 @@
+.header {
+    background-image: url("../img/bg-masthead.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(99, 110, 114,0.3);
+    background-blend-mode: multiply;
+    color: rgba(255, 255, 255,1.0);
+}
+
+.header .container {
+    height: 100%;
+}
+
+.services{
+    padding-top: 5%;
+    padding-bottom: 4%;
+    background-color: rgba(236, 240, 241,0.5);
+}
+.services .row .icon{
+    color: rgba(9, 132, 227,1.0);
+
+}
+
+.show-cases img{
+    height: 100%;
+    width: 100%;
+}
+.comments{
+   
+    background-color: rgba(236, 240, 241,0.5);
+  
+}
+.comments img{
+    height: 30vh;
+
+}
+.social{
+height: 20vh;
+}
+.social .icon{
+    color: rgba(46, 134, 222,1.0);
+}
+.social p{
+    color: rgba(87, 101, 116,0.9);
+}
+.social li{
+    border: 0;
+}
+.header span{
+    margin-left: 80px;
+}
+.active{
+    background-color: rgba(30, 144, 255,1.0) !important;
+    color: rgba(255, 255, 255,1.0) !important;
+}
